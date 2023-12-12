@@ -3,13 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { ThemeProvider } from '@emotion/react';
+import { createTheme } from '@mui/material';
+
+const theme = createTheme({
+  typography: {
+    fontFamily: [
+      'verdana'
+    ].join(',')
+  }
+})
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 

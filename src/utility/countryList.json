@@ -1,0 +1,46 @@
+[
+  {
+  "code":"ar",
+  "name":"Argentina"
+  },
+  {
+  "code":"au",
+  "name":"Australia"
+  },
+  {
+  "code":"at",
+  "name":"Austria"
+  },
+  {
+  "code":"cl",
+  "name":"Chile"
+  },
+  {
+  "code":"fr",
+  "name":"France"
+  },
+  {
+  "code":"de",
+  "name":"Germany"
+  },
+  {
+  "code":"it",
+  "name":"Italy"
+  },
+  {
+  "code":"pt",
+  "name":"Portugal"
+  },
+  {
+  "code":"za",
+  "name":"South Africa"
+  },
+  {
+  "code":"es",
+  "name":"Spain"
+  },
+  {
+  "code":"us",
+  "name":"United States"
+  }
+  ]
